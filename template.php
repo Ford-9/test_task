@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>%page_title%</title>
+    <title>%page_title% - %page_title%</title>
 
     <!-- Bootstrap -->
     <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -28,12 +28,12 @@
 <div class="container">
     <div class="row">
         <div class=" col-lg-6 text-right">
-            <h1><strong>%team1_title%</strong><br><small>%team1_country%</small></h1>
-            <h1>%team1_goals%</h1>
+            <h1><strong>%team_title%</strong><br><small>%team_country%</small></h1>
+            <h1>%team_goals%</h1>
         </div>
         <div class=" col-lg-6 text-left">
-            <h1><strong>%team2_title%</strong><br><small>%team2_country%</small></h1>
-            <h1>%team2_goals%</h1>
+            <h1><strong>%team_title%</strong><br><small>%team_country%</small></h1>
+            <h1>%team_goals%</h1>
         </div>
     </div>
 
@@ -55,7 +55,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                    %team1_startGame_players%
+                    %team_startGame_players%
                 </tbody>
             </table>
             <h4>Список игроков, которые вышли на замену</h4>
@@ -70,7 +70,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                %team1_replace_players%
+                %team_replace_players%
                 </tbody>
             </table>
             <h4>Список запасных игроков</h4>
@@ -82,7 +82,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                %team1_spare_players%
+                %team_spare_players%
                 </tbody>
             </table>
         </div>
@@ -99,7 +99,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                %team2_startGame_players%
+                %team_startGame_players%
                 </tbody>
             </table>
             <h4>Список игроков, которые вышли на замену</h4>
@@ -114,7 +114,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                %team2_replace_players%
+                %team_replace_players%
                 </tbody>
             </table>
             <h4>Список запасных игроков</h4>
@@ -126,7 +126,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                %team2_spare_players%
+                %team_spare_players%
                 </tbody>
             </table>
         </div>
